@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Zotero Watch Folder",
+  "version": "3.0.0",
+  "description": "Automatically import PDFs from a watched folder into Zotero with metadata retrieval and file organization. Compatible with Zotero 10+",
+  "author": "Jose Siqueira (Original), Zotero 10+ Fork",
+  "icons": {
+    "48": "content/icons/watch-folder-48.png",
+    "96": "content/icons/watch-folder-96.png"
+  },
+  "applications": {
+    "zotero": {
+      "id": "watch-folder-v10@zotero-plugin.org",
+      "update_url": "https://raw.githubusercontent.com/jayeshmbhagat/zotero-watch-folder-zotero10/main/update.json",
+      "strict_min_version": "10.0.0",
+      "strict_max_version": "10.*"
+    }
+  }
+}
